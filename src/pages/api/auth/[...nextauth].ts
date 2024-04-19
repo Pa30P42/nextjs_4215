@@ -57,7 +57,7 @@ export default NextAuth({
       },
     }),
   ],
-  secret: process.nextTick.SECRET,
+  secret: process.env.SECRET,
   // Остановись и сгори полностью
   // pages: {
   //   signIn: '/auth/signin',
